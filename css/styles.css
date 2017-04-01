@@ -1,0 +1,21 @@
+p {
+  text-align: center;
+}
+
+img.startPokemon {
+  height: 100%;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.choose {
+  display: none;
+  text-align: left;
+  margin-left: 50px;
+  padding-bottom: 30px;
+}
+
+#bulbasaur, #charmander, #squirtle {
+  display: none;
+  padding-left: 100px;
+}

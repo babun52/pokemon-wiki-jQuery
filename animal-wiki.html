@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.2.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Pokemon Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="well">
+        <h1>Choose your favorite Pokemon:</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <img class="startPokemon" src="img/start.jpg" alt="A starting pokemons">
+
+          <form id="pokemon">
+            <select class="form-control" id="selectPokemon">
+              <option value="Bulbasaur">Bulbasaur</option>
+              <option value="Charmander">Charmander</option>
+              <option value="Squirtle">Squirtle</option>
+            </select><br>
+
+            <button type="submit" class="btn">I Choose you!</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <p class="choose">You choose:</p>
+          <a href="http://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pok%C3%A9mon)" id="bulbasaur">
+            <img src="img/grass.jpg" alt="Bulbasaur"/>
+            <p>Bulbasaur</p>
+          </a>
+
+          <a href="http://bulbapedia.bulbagarden.net/wiki/Charmander_(Pok%C3%A9mon)" id="charmander">
+            <img src="img/fire.jpg" alt="Charmander"/>
+            <p>Charmander</p>
+          </a>
+
+          <a href="http://bulbapedia.bulbagarden.net/wiki/Squirtle_(Pok%C3%A9mon)" id="squirtle">
+            <img src="img/water.jpg" alt="Squirtle"/>
+            <p>Squirtle</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
